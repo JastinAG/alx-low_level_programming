@@ -1,17 +1,20 @@
+vi 2-print_alphabet.c
+i
 #include <stdio.h>
+
 /**
- * main - Entry point
+ * main - Prints the alphabet in lowercase.
  *
- * Return: Always 0 (Success)
+ * Return: Always 0.
  */
 int main(void)
 {
+	char letter;
 
-	char c;
+	for (letter = 'a'; letter <= 'z'; letter++)
+		putchar(letter);
 
-	for (c = 'a'; c <= 'z'; c++)
-		putchar(c);
-		putchar('\n');
+	putchar('\n');
 
-return (0);
+	return (0);
 }
