@@ -1,5 +1,3 @@
-vi 2-print_alphabet.c
-i
 #include <stdio.h>
 
 /**
