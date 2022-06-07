@@ -8,14 +8,14 @@
  * Return: 0 means (Success)
  */
 
-int main
+int main(void)
 {
 	char text[9] = "_putchar";
-	int i = 0;
+	int j = 0;
 
-	for (i = 0; i < 8; i++)
+	for (j = 0; j < 8; j++)
 	{
-		_putchar(text[i]);
+		_putchar(text[j]);
 	}
 	_putchar('\n');
 
