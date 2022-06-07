@@ -10,7 +10,6 @@ void print_alphabet(void)
 /**
  * FUNCTION TO PRINT 
  */
-
 {
 	int i;
 
