@@ -3,9 +3,9 @@
 * _isalpha - Shows 1 if the input is c
 * letter Another cases, shows 0
 *
-* @c: The character in ASCII code.
+* @c: The character in ASCII code
 *
-* Return: 1 for letters. Returns 0 for other characters
+* Return: 1 for letters. Returns 0 otherwise
 */
 int _isalpha(int c)
 {
@@ -19,3 +19,4 @@ int _isalpha(int c)
 	}
 	_putchar('\n');
 }
+
