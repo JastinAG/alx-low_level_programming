@@ -31,5 +31,5 @@ void print_number(int n)
 			size /= 10;
 		}
 	}
-	_putchar('0' + ones)
+	_putchar('0' + ones);
 }
