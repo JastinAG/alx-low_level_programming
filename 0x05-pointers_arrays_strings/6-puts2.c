@@ -1,4 +1,4 @@
-i#include "main.h"
+#include "main.h"
 
 /**
  *puts2 - print pair values.
@@ -28,3 +28,4 @@ void puts2(char *str)
 	}
 	_putchar('\n');
 }
+
