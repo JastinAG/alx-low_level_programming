@@ -1,18 +1,20 @@
-#include "main.h"
-/*memset fills a block of code with certian values
- * i think its nice working with pointers
- *cool
- *happy coding 
+#include "holberton.h"
+/**
+ *_memset - fill a block of memory with a specific value
+ *@s: starting address of memory to be filled
+ *@b: the desired value. arrays is cool
+ *@n: number of bytes to be changed
+ *
+ *Return: changed array with new value for n bytes
  */
-char *_memset(char *s, char b, unsigned int n);
+char *_memset(char *s, char b, unsigned int n)
 {
-	int i;
-	i = 0;
+	int a = 0;
 
 	while (n > 0)
 	{
-		s[i] = b;
-		i++;
+		s[a] = b;
+		a++;
 		n--;
 	}
 	return (s);
